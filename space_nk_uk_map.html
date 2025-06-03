@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c1f6535e62b6feb9856984f2be6ece2e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c1f6535e62b6feb9856984f2be6ece2e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c1f6535e62b6feb9856984f2be6ece2e = L.map(
+                "map_c1f6535e62b6feb9856984f2be6ece2e",
+                {
+                    center: [54.0, -2.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_82a831e24e2e8d7cf7bffb39d5313fe7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c1f6535e62b6feb9856984f2be6ece2e);
+        
+    
+            var marker_cluster_0f6ce7faea4f54830e2fc372a6d066da = L.markerClusterGroup(
+                {}
+            );
+            map_c1f6535e62b6feb9856984f2be6ece2e.addLayer(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+            var marker_245f092c93cfac3b2d613af59c023ac4 = L.marker(
+                [51.5154, -0.141],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_970721390217f928bb6d9a03c0b55c99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a5c982f873669ff8b5864399dd7d1e8 = $(`<div id="html_1a5c982f873669ff8b5864399dd7d1e8" style="width: 100.0%; height: 100.0%;">Oxford Street, London</div>`)[0];
+            popup_970721390217f928bb6d9a03c0b55c99.setContent(html_1a5c982f873669ff8b5864399dd7d1e8);
+        
+
+        marker_245f092c93cfac3b2d613af59c023ac4.bindPopup(popup_970721390217f928bb6d9a03c0b55c99)
+        ;
+
+        
+    
+    
+            marker_245f092c93cfac3b2d613af59c023ac4.bindTooltip(
+                `<div>
+                     Oxford Street
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fce534a3f763c1534c4c32df5487cda1 = L.marker(
+                [52.4786, -1.8946],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_b4133f1b1fd39e7dd4b1d12dd5e43d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8cfec3feb634cab6cd2bed3de82f7eb = $(`<div id="html_f8cfec3feb634cab6cd2bed3de82f7eb" style="width: 100.0%; height: 100.0%;">Birmingham Bullring, Birmingham</div>`)[0];
+            popup_b4133f1b1fd39e7dd4b1d12dd5e43d56.setContent(html_f8cfec3feb634cab6cd2bed3de82f7eb);
+        
+
+        marker_fce534a3f763c1534c4c32df5487cda1.bindPopup(popup_b4133f1b1fd39e7dd4b1d12dd5e43d56)
+        ;
+
+        
+    
+    
+            marker_fce534a3f763c1534c4c32df5487cda1.bindTooltip(
+                `<div>
+                     Birmingham Bullring
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3302d67be05c45eb9da51435baf87c48 = L.marker(
+                [51.5079, -0.2245],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_047b3e5b1fa86630a9b79b15ba5b5abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39f41ad3d49b77b854989dc0030a27d1 = $(`<div id="html_39f41ad3d49b77b854989dc0030a27d1" style="width: 100.0%; height: 100.0%;">Westfield, London</div>`)[0];
+            popup_047b3e5b1fa86630a9b79b15ba5b5abf.setContent(html_39f41ad3d49b77b854989dc0030a27d1);
+        
+
+        marker_3302d67be05c45eb9da51435baf87c48.bindPopup(popup_047b3e5b1fa86630a9b79b15ba5b5abf)
+        ;
+
+        
+    
+    
+            marker_3302d67be05c45eb9da51435baf87c48.bindTooltip(
+                `<div>
+                     Westfield
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_929fd8c59d00d5a790f451f0cc9e8a88 = L.marker(
+                [55.954, -3.1883],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_5fcdb3bd1ae460b6575bb57fdf07d288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16acf82e1b78743d8de67291689b4d5a = $(`<div id="html_16acf82e1b78743d8de67291689b4d5a" style="width: 100.0%; height: 100.0%;">St James, Edinburgh</div>`)[0];
+            popup_5fcdb3bd1ae460b6575bb57fdf07d288.setContent(html_16acf82e1b78743d8de67291689b4d5a);
+        
+
+        marker_929fd8c59d00d5a790f451f0cc9e8a88.bindPopup(popup_5fcdb3bd1ae460b6575bb57fdf07d288)
+        ;
+
+        
+    
+    
+            marker_929fd8c59d00d5a790f451f0cc9e8a88.bindTooltip(
+                `<div>
+                     St James
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c406b2e8877c355730e3ccad4554f73 = L.marker(
+                [53.4038, -2.9856],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_4cc312e288ba226fae5e8d80724a197e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_372cf78e6763800e5241dd29bc1ee861 = $(`<div id="html_372cf78e6763800e5241dd29bc1ee861" style="width: 100.0%; height: 100.0%;">Liverpool, Liverpool</div>`)[0];
+            popup_4cc312e288ba226fae5e8d80724a197e.setContent(html_372cf78e6763800e5241dd29bc1ee861);
+        
+
+        marker_6c406b2e8877c355730e3ccad4554f73.bindPopup(popup_4cc312e288ba226fae5e8d80724a197e)
+        ;
+
+        
+    
+    
+            marker_6c406b2e8877c355730e3ccad4554f73.bindTooltip(
+                `<div>
+                     Liverpool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9503ea879f11f11343c0743378b2323c = L.marker(
+                [51.4816, -3.1791],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_afb4b1045e08ed2d15eb097f0db45355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3febda3b2e33a7af068387138137eb2 = $(`<div id="html_e3febda3b2e33a7af068387138137eb2" style="width: 100.0%; height: 100.0%;">Cardiff, Cardiff</div>`)[0];
+            popup_afb4b1045e08ed2d15eb097f0db45355.setContent(html_e3febda3b2e33a7af068387138137eb2);
+        
+
+        marker_9503ea879f11f11343c0743378b2323c.bindPopup(popup_afb4b1045e08ed2d15eb097f0db45355)
+        ;
+
+        
+    
+    
+            marker_9503ea879f11f11343c0743378b2323c.bindTooltip(
+                `<div>
+                     Cardiff
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23eda7f5a7dd8c48622c8a9ecea47d1f = L.marker(
+                [53.2894, -6.2447],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_cf21752ade533d0f9f7415b981b350a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecbb1acd71cc57ed15692138f63dc9e8 = $(`<div id="html_ecbb1acd71cc57ed15692138f63dc9e8" style="width: 100.0%; height: 100.0%;">Dundrum, Dublin</div>`)[0];
+            popup_cf21752ade533d0f9f7415b981b350a8.setContent(html_ecbb1acd71cc57ed15692138f63dc9e8);
+        
+
+        marker_23eda7f5a7dd8c48622c8a9ecea47d1f.bindPopup(popup_cf21752ade533d0f9f7415b981b350a8)
+        ;
+
+        
+    
+    
+            marker_23eda7f5a7dd8c48622c8a9ecea47d1f.bindTooltip(
+                `<div>
+                     Dundrum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e8979d70e0e212756629c0bdf2c6951 = L.marker(
+                [51.5136, -0.1265],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_a462bfada10242475859b9f4a4f72334 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c08ca4ff57b34171eea741d0f03ac9 = $(`<div id="html_b5c08ca4ff57b34171eea741d0f03ac9" style="width: 100.0%; height: 100.0%;">Covent Garden, London</div>`)[0];
+            popup_a462bfada10242475859b9f4a4f72334.setContent(html_b5c08ca4ff57b34171eea741d0f03ac9);
+        
+
+        marker_1e8979d70e0e212756629c0bdf2c6951.bindPopup(popup_a462bfada10242475859b9f4a4f72334)
+        ;
+
+        
+    
+    
+            marker_1e8979d70e0e212756629c0bdf2c6951.bindTooltip(
+                `<div>
+                     Covent Garden
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d391f7ce040335acafdc1af87229818c = L.marker(
+                [53.4652, -2.3488],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_cf22be2b9c2b487b22cf644b9c4db5e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7fe3748bda07a6cd2c823d86b2995cb = $(`<div id="html_c7fe3748bda07a6cd2c823d86b2995cb" style="width: 100.0%; height: 100.0%;">Trafford, Manchester</div>`)[0];
+            popup_cf22be2b9c2b487b22cf644b9c4db5e0.setContent(html_c7fe3748bda07a6cd2c823d86b2995cb);
+        
+
+        marker_d391f7ce040335acafdc1af87229818c.bindPopup(popup_cf22be2b9c2b487b22cf644b9c4db5e0)
+        ;
+
+        
+    
+    
+            marker_d391f7ce040335acafdc1af87229818c.bindTooltip(
+                `<div>
+                     Trafford
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3307ab1393da7cc7526a110305f457b5 = L.marker(
+                [51.4386, 0.27],
+                {}
+            ).addTo(marker_cluster_0f6ce7faea4f54830e2fc372a6d066da);
+        
+    
+        var popup_acc4070f8f150e9bb31600789d8707d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fbdec7b7137fa47683b41b9b4764808 = $(`<div id="html_9fbdec7b7137fa47683b41b9b4764808" style="width: 100.0%; height: 100.0%;">Bluewater, Kent</div>`)[0];
+            popup_acc4070f8f150e9bb31600789d8707d0.setContent(html_9fbdec7b7137fa47683b41b9b4764808);
+        
+
+        marker_3307ab1393da7cc7526a110305f457b5.bindPopup(popup_acc4070f8f150e9bb31600789d8707d0)
+        ;
+
+        
+    
+    
+            marker_3307ab1393da7cc7526a110305f457b5.bindTooltip(
+                `<div>
+                     Bluewater
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
